@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Rizky Fahrezy 2172018">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilai Prima</title>
+</head>
+<body>
+<script>
+    let a = prompt("Bilangan yang ingin di cek:");
+    let c = 0;
+    for(let i=1; i<=a; i++ ){
+        if(a%i==0){c++;}
+    }
+    if(c==2){
+        document.write(" Bilangan " + a + " adalah bilangan prima");
+    }
+    else{
+        document.write(" Bilangan " + a + " bukan bilangan prima");
+    }
+    </script>
+</body>
+</html>
+
